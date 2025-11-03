@@ -1,6 +1,6 @@
-# 🤖 Autonomous Trading Agent
+# Autonomous Trading Agent
 
-> **Ultra-fast, AI-powered algorithmic trading system with 70% faster execution and 79% lower costs**
+> Ultra-fast, AI-powered algorithmic trading system with 70% faster execution and 79% lower costs
 
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI-Agents%20SDK-green.svg)](https://openai.github.io/openai-agents-python/)
@@ -10,20 +10,20 @@ An autonomous AI trading agent that analyzes technical indicators in real-time, 
 
 ---
 
-## ✨ Highlights
+## Highlights
 
-- ⚡ **70% faster** execution (3-6s vs 12-20s per cycle)
-- 💰 **79% lower token usage** (30K vs 144K per cycle)
-- 📊 **7 technical indicators** (RSI, MACD, Bollinger Bands, EMA, Stochastic, ADX, ATR)
-- 🔄 **Parallel data fetching** (all 5 stocks simultaneously)
-- 🎯 **Instant market orders** (no waiting for limit order fills)
-- 🛡️ **Strict risk management** (stop-loss, position limits, no pyramiding)
-- 🌐 **Model agnostic** (works with Cerebras, Groq, OpenAI, or custom models)
-- 📈 **Shorting enabled** (can go long or short)
+- 70% faster execution (3-6s vs 12-20s per cycle)
+- 79% lower token usage (30K vs 144K per cycle)
+- 7 technical indicators (RSI, MACD, Bollinger Bands, EMA, Stochastic, ADX, ATR)
+- Parallel data fetching (all 5 stocks simultaneously)
+- Instant market orders (no waiting for limit order fills)
+- Strict risk management (stop-loss, position limits, no pyramiding)
+- Model agnostic (works with Cerebras, Groq, OpenAI, or custom models)
+- Shorting enabled (can go long or short)
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Quick Start](#quick-start)
 - [Features](#features)
@@ -39,12 +39,12 @@ An autonomous AI trading agent that analyzes technical indicators in real-time, 
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1. Clone the repository
-git clone <repo-url>
-cd autonomous-agents
+git clone https://github.com/marketcalls/Agentic-Trader.git
+cd Agentic-Trader
 
 # 2. Install uv package manager
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -64,7 +64,7 @@ That's it! The agent will start trading automatically every 5 minutes during mar
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Capabilities
 
@@ -97,18 +97,18 @@ The agent uses **7 professional TA-Lib indicators**:
 
 ---
 
-## 📊 Performance
+## Performance
 
 ### Before vs After Optimization
 
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
-| **Cycle Time** | 12-20s | 3-6s | 70% faster ⚡ |
-| **Data Fetch** | 8-12s | 2-3s | 75% faster ⚡ |
-| **Token Usage** | 144K | 30K | 79% reduction 💰 |
-| **Cost per Cycle** | $0.023-0.031 | $0.008-0.012 | 65% cheaper 💰 |
-| **Order Execution** | 15-45s | Instant | 100% faster ⚡ |
-| **Monthly Cost** | $74 | $26 | Save $48/month 💰 |
+| **Cycle Time** | 12-20s | 3-6s | 70% faster |
+| **Data Fetch** | 8-12s | 2-3s | 75% faster |
+| **Token Usage** | 144K | 30K | 79% reduction |
+| **Cost per Cycle** | $0.023-0.031 | $0.008-0.012 | 65% cheaper |
+| **Order Execution** | 15-45s | Instant | 100% faster |
+| **Monthly Cost** | $74 | $26 | Save $48/month |
 
 *Costs calculated using Cerebras llama3.1-8b model*
 
@@ -122,7 +122,7 @@ The agent uses **7 professional TA-Lib indicators**:
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### Trading Cycle (Every 5 Minutes)
 
@@ -183,7 +183,7 @@ ITC: HOLD (mixed signals)
 
 ---
 
-## 💻 Installation
+## Installation
 
 ### Prerequisites
 
@@ -248,7 +248,7 @@ uv pip install TA-Lib
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### 1. Create Environment File
 
@@ -291,7 +291,7 @@ OPENALGO_HOST=http://127.0.0.1:5000
 
 ---
 
-## 🎯 Usage
+## Usage
 
 ### Running the Agent
 
@@ -341,7 +341,7 @@ The agent provides real-time output:
 
 ---
 
-## 🛡️ Risk Management
+## Risk Management
 
 ### Built-in Safety Features
 
@@ -384,7 +384,7 @@ PRODUCT = "MIS"                   # Intraday trading
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 ### Core Documents
 
@@ -406,7 +406,7 @@ PRODUCT = "MIS"                   # Intraday trading
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -455,7 +455,7 @@ For more troubleshooting help, see [TROUBLESHOOTING.md](./TROUBLESHOOTING.md).
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 autonomous-agents/
@@ -474,7 +474,7 @@ autonomous-agents/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -499,13 +499,13 @@ uv run pytest
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 **IMPORTANT TRADING RISK DISCLOSURE**
 
@@ -536,7 +536,7 @@ This is an **autonomous AI trading system** that makes real trading decisions wi
 
 ---
 
-## 🔗 Resources
+## Resources
 
 ### Official Documentation
 
@@ -559,7 +559,7 @@ This is an **autonomous AI trading system** that makes real trading decisions wi
 
 ---
 
-## 🌟 Features Roadmap
+## Features Roadmap
 
 **Planned Enhancements:**
 
@@ -576,7 +576,7 @@ This is an **autonomous AI trading system** that makes real trading decisions wi
 
 ---
 
-## 📈 Stats
+## Stats
 
 - **Lines of Code**: ~1,000
 - **Dependencies**: 8 core packages
@@ -589,11 +589,11 @@ This is an **autonomous AI trading system** that makes real trading decisions wi
 
 ---
 
-**Built with ❤️ using OpenAI Agents SDK**
+**Built with OpenAI Agents SDK**
 
-**Version**: 3.0 (Optimized Single-Agent)
+**Version**: 3.1 (Production-Ready with Full Protection)
 **Last Updated**: January 2025
-**Status**: Production Ready ✅
+**Status**: Production Ready
 
 ---
 
@@ -615,4 +615,4 @@ sqlite3 trading_memory.db "SELECT * FROM trades ORDER BY timestamp DESC LIMIT 10
 
 ---
 
-**Happy Trading! 🚀📈💰**
+**Happy Trading!**
