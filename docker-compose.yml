@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  agentic-trader:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    volumes:
+      - ./trading_memory.db:/app/trading_memory.db
+    restart: unless-stopped
+    command: python agent.py

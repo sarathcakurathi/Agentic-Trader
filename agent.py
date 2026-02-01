@@ -1339,7 +1339,7 @@ async def start_autonomous_agent():
     now = datetime.now(IST)
     if MARKET_OPEN_HOUR <= now.hour < SQUARE_OFF_HOUR or (now.hour == SQUARE_OFF_HOUR and now.minute < SQUARE_OFF_MINUTE):
         print("Running initial test cycle...\n", flush=True)
-        await run_trading_cycle()
+        # await run_trading_cycle()
     else:
         print(f"{Fore.YELLOW}Outside market hours ({MARKET_OPEN_HOUR}:{MARKET_OPEN_MINUTE:02d} AM - {SQUARE_OFF_HOUR}:{SQUARE_OFF_MINUTE:02d} PM). Waiting for next scheduled run.{Style.RESET_ALL}\n", flush=True)
     
